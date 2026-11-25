@@ -1,0 +1,19 @@
+# Khóa API: không bao giờ đưa lên
+.env
+**/.env
+
+# Môi trường Python và file tạm
+.venv/
+__pycache__/
+*.pyc
+
+# Cache câu trả lời của AI
+.cache/
+
+# Kết quả chạy đánh giá (sinh lại được bằng run_eval.py)
+eval_100/out/
+eval_100/hard/out/
+eval_100/run_llm.log
+
+# File khóa của Excel
+~$*

@@ -1,0 +1,246 @@
+{
+ "file": "H02_3.xlsx",
+ "category": 2,
+ "category_desc": "Giá khuyến mãi đứng trước giá niêm yết",
+ "variant": 3,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    7
+   ],
+   "data_first": 8,
+   "data_last": 29,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "F"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!8",
+   "ma_hang": "DP1000",
+   "ten_hang": "Strepsils 24 viên",
+   "don_vi": "Hộp",
+   "don_gia": "88300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "TH1001",
+   "ten_hang": "Vitamin B1 100mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "13700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "DP1002",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Cái",
+   "don_gia": "107000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "DP1003",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Ống",
+   "don_gia": "60000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "DP1004",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Cái",
+   "don_gia": "192000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "YT1005",
+   "ten_hang": "Clorpheniramin 4mg",
+   "don_vi": "Lọ",
+   "don_gia": "124000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "YT1006",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Hộp",
+   "don_gia": "25000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "SP1007",
+   "ten_hang": "Oresol 4,1g",
+   "don_vi": "Gói",
+   "don_gia": "21000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "SP1008",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": "28800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "YT1009",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "20500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "SP1010",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "8700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "YT1011",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "40000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "TH1012",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Ống",
+   "don_gia": "20000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "DP1013",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "26500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "YT1014",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Gói",
+   "don_gia": "124000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "SP1015",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "38000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "DP1016",
+   "ten_hang": "Magne B6",
+   "don_vi": "Ống",
+   "don_gia": "14400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "TH1017",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Lọ",
+   "don_gia": "20000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "YT1018",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "194300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "YT1019",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "187000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "TH1020",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "145000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!29",
+   "ma_hang": "YT1021",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Cái",
+   "don_gia": "5700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

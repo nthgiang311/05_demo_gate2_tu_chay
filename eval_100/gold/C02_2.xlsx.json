@@ -1,0 +1,246 @@
+{
+ "file": "C02_2.xlsx",
+ "category": 2,
+ "category_desc": "Tiêu đề sâu + khối thông tin công ty + ngày hiệu lực",
+ "variant": 2,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    8
+   ],
+   "data_first": 9,
+   "data_last": 30,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!9",
+   "ma_hang": "DP1000",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "93000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "SP1001",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Viên",
+   "don_gia": "25900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "DP1002",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "3000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "DP1003",
+   "ten_hang": "Decolgen",
+   "don_vi": "Vỉ",
+   "don_gia": "238000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "YT1004",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Gói",
+   "don_gia": "210100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "TH1005",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Lọ",
+   "don_gia": "222000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "DP1006",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Viên",
+   "don_gia": "24600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "TH1007",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Lọ",
+   "don_gia": "49200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "SP1008",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "4000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "TH1009",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Chai",
+   "don_gia": "242000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "TH1010",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Viên",
+   "don_gia": "14600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "YT1011",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "229000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "SP1012",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "17100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "SP1013",
+   "ten_hang": "Nhiệt kế điện tử",
+   "don_vi": "Cái",
+   "don_gia": "156000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "DP1014",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Lọ",
+   "don_gia": "163000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "DP1015",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "175000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "SP1016",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "71000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "TH1017",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Viên",
+   "don_gia": "113000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "TH1018",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Viên",
+   "don_gia": "18800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "SP1019",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Viên",
+   "don_gia": "29600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!29",
+   "ma_hang": "SP1020",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Lọ",
+   "don_gia": "170000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!30",
+   "ma_hang": "YT1021",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Viên",
+   "don_gia": "125000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": "2026-12-02"
+}

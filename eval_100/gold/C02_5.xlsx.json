@@ -1,0 +1,346 @@
+{
+ "file": "C02_5.xlsx",
+ "category": 2,
+ "category_desc": "Tiêu đề sâu + khối thông tin công ty + ngày hiệu lực",
+ "variant": 5,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    11
+   ],
+   "data_first": 12,
+   "data_last": 43,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!12",
+   "ma_hang": "YT1000",
+   "ten_hang": "Cao xoa Sao Vàng",
+   "don_vi": "Hộp",
+   "don_gia": "57300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "SP1001",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Gói",
+   "don_gia": "28300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "TH1002",
+   "ten_hang": "Siro ho Prospan 100ml",
+   "don_vi": "Chai",
+   "don_gia": "113000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "YT1003",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Viên",
+   "don_gia": "78000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "TH1004",
+   "ten_hang": "Decolgen",
+   "don_vi": "Viên",
+   "don_gia": "151700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "YT1005",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Hộp",
+   "don_gia": "186000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "SP1006",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Tuýp",
+   "don_gia": "169600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "TH1007",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "24900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "YT1008",
+   "ten_hang": "Oresol 4,1g",
+   "don_vi": "Gói",
+   "don_gia": "87000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "DP1009",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "100000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "YT1010",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Lọ",
+   "don_gia": "81100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "SP1011",
+   "ten_hang": "Clorpheniramin 4mg",
+   "don_vi": "Viên",
+   "don_gia": "29200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "YT1012",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "63000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "TH1013",
+   "ten_hang": "Spironolacton 25mg",
+   "don_vi": "Viên",
+   "don_gia": "13100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "TH1014",
+   "ten_hang": "Glucosamin 1500mg",
+   "don_vi": "Lọ",
+   "don_gia": "201600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "DP1015",
+   "ten_hang": "Spironolacton 25mg",
+   "don_vi": "Viên",
+   "don_gia": "15400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "DP1016",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "6300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!29",
+   "ma_hang": "TH1017",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Viên",
+   "don_gia": "35000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!30",
+   "ma_hang": "SP1018",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Gói",
+   "don_gia": "55000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!31",
+   "ma_hang": "DP1019",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Viên",
+   "don_gia": "144000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!32",
+   "ma_hang": "SP1020",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Chai",
+   "don_gia": "164000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!33",
+   "ma_hang": "TH1021",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Vỉ",
+   "don_gia": "12900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!34",
+   "ma_hang": "YT1022",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": "41000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!35",
+   "ma_hang": "DP1023",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Lọ",
+   "don_gia": "10300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!36",
+   "ma_hang": "DP1024",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "118600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!37",
+   "ma_hang": "YT1025",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "78000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!38",
+   "ma_hang": "TH1026",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "205000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!39",
+   "ma_hang": "DP1027",
+   "ten_hang": "Vitamin C 1000mg",
+   "don_vi": "Tuýp",
+   "don_gia": "165800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!40",
+   "ma_hang": "SP1028",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Chai",
+   "don_gia": "211100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!41",
+   "ma_hang": "TH1029",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "21400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!42",
+   "ma_hang": "TH1030",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "117000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!43",
+   "ma_hang": "DP1031",
+   "ten_hang": "Máy đo huyết áp Omron HEM-7120",
+   "don_vi": "Cái",
+   "don_gia": "217700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": "2026-12-05"
+}

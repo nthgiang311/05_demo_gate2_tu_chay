@@ -1,0 +1,275 @@
+{
+ "file": "H04_1.xlsx",
+ "category": 4,
+ "category_desc": "Mã và tên chung một ô",
+ "variant": 1,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 30,
+   "mapping": {
+    "ten_hang": "B",
+    "don_vi": "C",
+    "don_gia": "D"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!6",
+   "ma_hang": "TH1000",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": "134700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "DP1001",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "24400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "SP1002",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Gói",
+   "don_gia": "195000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "YT1003",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Gói",
+   "don_gia": "23700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "TH1004",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Lọ",
+   "don_gia": "5000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "DP1005",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Vỉ",
+   "don_gia": "129100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "TH1006",
+   "ten_hang": "Nhiệt kế điện tử",
+   "don_vi": "Cái",
+   "don_gia": "86600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "SP1007",
+   "ten_hang": "Vitamin B1 100mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "12000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "YT1008",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Chai",
+   "don_gia": "11200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "DP1009",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Gói",
+   "don_gia": "221100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "TH1010",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Cái",
+   "don_gia": "117000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "DP1011",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Lọ",
+   "don_gia": "25800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "DP1012",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "92000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "DP1013",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Hộp",
+   "don_gia": "91300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "SP1014",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "172600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "YT1015",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "93400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "DP1016",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Chai",
+   "don_gia": "18700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "SP1017",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "180200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "DP1018",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "188000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "SP1019",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Gói",
+   "don_gia": "3600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "TH1020",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Ống",
+   "don_gia": "82000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "TH1021",
+   "ten_hang": "Spironolacton 25mg",
+   "don_vi": "Viên",
+   "don_gia": "86000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "DP1022",
+   "ten_hang": "Decolgen",
+   "don_vi": "Vỉ",
+   "don_gia": "65000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!29",
+   "ma_hang": "DP1023",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Viên",
+   "don_gia": "164400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!30",
+   "ma_hang": "DP1024",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "21200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

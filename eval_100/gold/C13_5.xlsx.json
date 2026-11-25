@@ -1,0 +1,346 @@
+{
+ "file": "C13_5.xlsx",
+ "category": 13,
+ "category_desc": "Chữ bẩn: khoảng trắng, NBSP, hoa thường, mã có số 0 đầu",
+ "variant": 5,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 37,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!6",
+   "ma_hang": "000001",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Hộp",
+   "don_gia": "123900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "000002",
+   "ten_hang": "Glucosamin 1500mg",
+   "don_vi": "Chai",
+   "don_gia": "24000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "000003",
+   "ten_hang": "Domperidon 10mg",
+   "don_vi": "Hộp",
+   "don_gia": "91600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "000004",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "27600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "000005",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Chai",
+   "don_gia": "129800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "000006",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "29900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "000007",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Hộp",
+   "don_gia": "26400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "000008",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "148700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "000009",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "249800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "000010",
+   "ten_hang": "Spironolacton 25mg",
+   "don_vi": "Viên",
+   "don_gia": "62000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "000011",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Gói",
+   "don_gia": "100100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "000012",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "150000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "000013",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Ống",
+   "don_gia": "27100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "000014",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "14700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "000015",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Gói",
+   "don_gia": "35000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "000016",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Ống",
+   "don_gia": "17100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "000017",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Viên",
+   "don_gia": "22000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "000018",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Lọ",
+   "don_gia": "25600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "000019",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": "136600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "000020",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "12400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "000021",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Viên",
+   "don_gia": "7600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "000022",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Viên",
+   "don_gia": "178000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "000023",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Viên",
+   "don_gia": "28900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!29",
+   "ma_hang": "000024",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "22800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!30",
+   "ma_hang": "000025",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Viên",
+   "don_gia": "196400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!31",
+   "ma_hang": "000026",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "12200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!32",
+   "ma_hang": "000027",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Chai",
+   "don_gia": "148000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!33",
+   "ma_hang": "000028",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Lọ",
+   "don_gia": "120000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!34",
+   "ma_hang": "000029",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Lọ",
+   "don_gia": "12200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!35",
+   "ma_hang": "000030",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "21300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!36",
+   "ma_hang": "000031",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "88300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!37",
+   "ma_hang": "000032",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "227600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

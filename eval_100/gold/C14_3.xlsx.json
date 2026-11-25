@@ -1,0 +1,226 @@
+{
+ "file": "C14_3.xlsx",
+ "category": 14,
+ "category_desc": "Cột xáo trộn + nhiều cột thừa",
+ "variant": 3,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "Data",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 25,
+   "mapping": {
+    "ma_hang": "D",
+    "ten_hang": "F",
+    "don_vi": "G",
+    "don_gia": "C"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "Data!6",
+   "ma_hang": "SP1000",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Gói",
+   "don_gia": "221300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!7",
+   "ma_hang": "DP1001",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Hộp",
+   "don_gia": "22800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!8",
+   "ma_hang": "SP1002",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Ống",
+   "don_gia": "193500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!9",
+   "ma_hang": "DP1003",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Ống",
+   "don_gia": "203000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!10",
+   "ma_hang": "DP1004",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Tuýp",
+   "don_gia": "98200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!11",
+   "ma_hang": "TH1005",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Ống",
+   "don_gia": "27000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!12",
+   "ma_hang": "YT1006",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "47000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!13",
+   "ma_hang": "YT1007",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Hộp",
+   "don_gia": "143000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!14",
+   "ma_hang": "YT1008",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "35300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!15",
+   "ma_hang": "YT1009",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Viên",
+   "don_gia": "166900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!16",
+   "ma_hang": "DP1010",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Chai",
+   "don_gia": "21600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!17",
+   "ma_hang": "TH1011",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Gói",
+   "don_gia": "5700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!18",
+   "ma_hang": "YT1012",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Vỉ",
+   "don_gia": "20200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!19",
+   "ma_hang": "DP1013",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "32000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!20",
+   "ma_hang": "TH1014",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Cái",
+   "don_gia": "177000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!21",
+   "ma_hang": "TH1015",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "245800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!22",
+   "ma_hang": "TH1016",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "20900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!23",
+   "ma_hang": "YT1017",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "233800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!24",
+   "ma_hang": "YT1018",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "2700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Data!25",
+   "ma_hang": "DP1019",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Viên",
+   "don_gia": "18600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

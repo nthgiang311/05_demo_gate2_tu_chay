@@ -1,0 +1,176 @@
+{
+ "file": "C01_5.xlsx",
+ "category": 1,
+ "category_desc": "Sạch, tiêu đề ở dòng 1",
+ "variant": 5,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "Bao gia",
+   "header_rows": [
+    1
+   ],
+   "data_first": 2,
+   "data_last": 16,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "Bao gia!2",
+   "ma_hang": "SP1000",
+   "ten_hang": "Cao xoa Sao Vàng",
+   "don_vi": "Hộp",
+   "don_gia": "13100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!3",
+   "ma_hang": "YT1001",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "241100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!4",
+   "ma_hang": "TH1002",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Chai",
+   "don_gia": "10700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!5",
+   "ma_hang": "TH1003",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "29200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!6",
+   "ma_hang": "SP1004",
+   "ten_hang": "Oresol 4,1g",
+   "don_vi": "Chai",
+   "don_gia": "3500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!7",
+   "ma_hang": "DP1005",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Viên",
+   "don_gia": "53500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!8",
+   "ma_hang": "TH1006",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Hộp",
+   "don_gia": "142000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!9",
+   "ma_hang": "SP1007",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Gói",
+   "don_gia": "36000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!10",
+   "ma_hang": "SP1008",
+   "ten_hang": "Clorpheniramin 4mg",
+   "don_vi": "Viên",
+   "don_gia": "10600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!11",
+   "ma_hang": "DP1009",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "27500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!12",
+   "ma_hang": "SP1010",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Chai",
+   "don_gia": "205400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!13",
+   "ma_hang": "TH1011",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Lọ",
+   "don_gia": "27900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!14",
+   "ma_hang": "YT1012",
+   "ten_hang": "Vitamin B1 100mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "61400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!15",
+   "ma_hang": "SP1013",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Chai",
+   "don_gia": "16300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Bao gia!16",
+   "ma_hang": "YT1014",
+   "ten_hang": "Vitamin B1 100mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "9700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

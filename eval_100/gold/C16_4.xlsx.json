@@ -1,0 +1,386 @@
+{
+ "file": "C16_4.xlsx",
+ "category": 16,
+ "category_desc": "Tiêu đề tiếng Anh",
+ "variant": 4,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "Price list",
+   "header_rows": [
+    4
+   ],
+   "data_first": 5,
+   "data_last": 40,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "Price list!5",
+   "ma_hang": "YT1000",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Cái",
+   "don_gia": "197000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!6",
+   "ma_hang": "SP1001",
+   "ten_hang": "Domperidon 10mg",
+   "don_vi": "Viên",
+   "don_gia": "200000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!7",
+   "ma_hang": "YT1002",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "162200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!8",
+   "ma_hang": "DP1003",
+   "ten_hang": "Cao xoa Sao Vàng",
+   "don_vi": "Hộp",
+   "don_gia": "20500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!9",
+   "ma_hang": "TH1004",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "184000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!10",
+   "ma_hang": "DP1005",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Viên",
+   "don_gia": "19900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!11",
+   "ma_hang": "SP1006",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Vỉ",
+   "don_gia": "134000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!12",
+   "ma_hang": "TH1007",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Vỉ",
+   "don_gia": "199000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!13",
+   "ma_hang": "DP1008",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Hộp",
+   "don_gia": "23100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!14",
+   "ma_hang": "YT1009",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "4500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!15",
+   "ma_hang": "DP1010",
+   "ten_hang": "Glucosamin 1500mg",
+   "don_vi": "Lọ",
+   "don_gia": "17100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!16",
+   "ma_hang": "SP1011",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "2500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!17",
+   "ma_hang": "SP1012",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Viên",
+   "don_gia": "229000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!18",
+   "ma_hang": "DP1013",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "6600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!19",
+   "ma_hang": "SP1014",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "47000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!20",
+   "ma_hang": "TH1015",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Vỉ",
+   "don_gia": "111000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!21",
+   "ma_hang": "YT1016",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "9700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!22",
+   "ma_hang": "YT1017",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "6500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!23",
+   "ma_hang": "DP1018",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Vỉ",
+   "don_gia": "241000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!24",
+   "ma_hang": "YT1019",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Cái",
+   "don_gia": "9500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!25",
+   "ma_hang": "TH1020",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "2000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!26",
+   "ma_hang": "YT1021",
+   "ten_hang": "Clorpheniramin 4mg",
+   "don_vi": "Viên",
+   "don_gia": "193000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!27",
+   "ma_hang": "SP1022",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Viên",
+   "don_gia": "11100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!28",
+   "ma_hang": "SP1023",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Chai",
+   "don_gia": "17000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!29",
+   "ma_hang": "TH1024",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Viên",
+   "don_gia": "32000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!30",
+   "ma_hang": "SP1025",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Gói",
+   "don_gia": "34100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!31",
+   "ma_hang": "SP1026",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "108000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!32",
+   "ma_hang": "YT1027",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Chai",
+   "don_gia": "219000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!33",
+   "ma_hang": "YT1028",
+   "ten_hang": "Spironolacton 25mg",
+   "don_vi": "Viên",
+   "don_gia": "26200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!34",
+   "ma_hang": "YT1029",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Viên",
+   "don_gia": "11900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!35",
+   "ma_hang": "TH1030",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Lọ",
+   "don_gia": "11500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!36",
+   "ma_hang": "TH1031",
+   "ten_hang": "Clorpheniramin 4mg",
+   "don_vi": "Viên",
+   "don_gia": "22200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!37",
+   "ma_hang": "TH1032",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Hộp",
+   "don_gia": "63000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!38",
+   "ma_hang": "DP1033",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "9500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!39",
+   "ma_hang": "TH1034",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Viên",
+   "don_gia": "16600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!40",
+   "ma_hang": "YT1035",
+   "ten_hang": "Domperidon 10mg",
+   "don_vi": "Lọ",
+   "don_gia": "51300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

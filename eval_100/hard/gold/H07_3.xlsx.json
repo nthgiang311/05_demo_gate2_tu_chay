@@ -1,0 +1,245 @@
+{
+ "file": "H07_3.xlsx",
+ "category": 7,
+ "category_desc": "ĐVT nằm trong tiêu đề cột giá",
+ "variant": 3,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 27,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_gia": "D"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!6",
+   "ma_hang": "DP1000",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Chai",
+   "don_gia": "153000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "DP1001",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Chai",
+   "don_gia": "19100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "DP1002",
+   "ten_hang": "Siro ho Prospan 100ml",
+   "don_vi": "Chai",
+   "don_gia": "3600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "TH1003",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Chai",
+   "don_gia": "240000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "YT1004",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Chai",
+   "don_gia": "24000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "SP1005",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Chai",
+   "don_gia": "20000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "TH1006",
+   "ten_hang": "Nhiệt kế điện tử",
+   "don_vi": "Chai",
+   "don_gia": "46000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "YT1007",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Chai",
+   "don_gia": "13200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "TH1008",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Chai",
+   "don_gia": "17100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "TH1009",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Chai",
+   "don_gia": "22700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "YT1010",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Chai",
+   "don_gia": "210000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "SP1011",
+   "ten_hang": "Tiffy",
+   "don_vi": "Chai",
+   "don_gia": "74200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "DP1012",
+   "ten_hang": "Oresol 4,1g",
+   "don_vi": "Chai",
+   "don_gia": "150500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "YT1013",
+   "ten_hang": "Máy đo huyết áp Omron HEM-7120",
+   "don_vi": "Chai",
+   "don_gia": "96200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "DP1014",
+   "ten_hang": "Vitamin C 1000mg",
+   "don_vi": "Chai",
+   "don_gia": "22500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "TH1015",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Chai",
+   "don_gia": "25500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "DP1016",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Chai",
+   "don_gia": "12400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "TH1017",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Chai",
+   "don_gia": "18900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "TH1018",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Chai",
+   "don_gia": "9000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "YT1019",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Chai",
+   "don_gia": "149000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "SP1020",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Chai",
+   "don_gia": "181800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "DP1021",
+   "ten_hang": "Decolgen",
+   "don_vi": "Chai",
+   "don_gia": "11700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

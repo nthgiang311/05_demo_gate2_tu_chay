@@ -1,0 +1,236 @@
+{
+ "file": "H02_2.xlsx",
+ "category": 2,
+ "category_desc": "Giá khuyến mãi đứng trước giá niêm yết",
+ "variant": 2,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    7
+   ],
+   "data_first": 8,
+   "data_last": 28,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "F"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!8",
+   "ma_hang": "YT1000",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Gói",
+   "don_gia": "17600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "DP1001",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Vỉ",
+   "don_gia": "108000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "YT1002",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "44000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "SP1003",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Lọ",
+   "don_gia": "38100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "DP1004",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "228700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "YT1005",
+   "ten_hang": "Vitamin C 1000mg",
+   "don_vi": "Tuýp",
+   "don_gia": "104000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "SP1006",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Vỉ",
+   "don_gia": "33000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "TH1007",
+   "ten_hang": "Glucosamin 1500mg",
+   "don_vi": "Lọ",
+   "don_gia": "180000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "YT1008",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "123000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "YT1009",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Lọ",
+   "don_gia": "21200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "YT1010",
+   "ten_hang": "Magne B6",
+   "don_vi": "Hộp",
+   "don_gia": "32700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "TH1011",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Cái",
+   "don_gia": "159000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "SP1012",
+   "ten_hang": "Strepsils 24 viên",
+   "don_vi": "Hộp",
+   "don_gia": "153000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "DP1013",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Viên",
+   "don_gia": "61000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "DP1014",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "99400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "DP1015",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "230000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "YT1016",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "22000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "YT1017",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Viên",
+   "don_gia": "244000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "DP1018",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "200000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "TH1019",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "156400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "DP1020",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "20000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

@@ -1,0 +1,446 @@
+{
+ "file": "C06_3.xlsx",
+ "category": 6,
+ "category_desc": "Dòng nhóm, cộng nhóm, tổng cộng (công thức)",
+ "variant": 3,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BaoGia",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 60,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BaoGia!7",
+   "ma_hang": "DP1000",
+   "ten_hang": "Oresol 4,1g",
+   "don_vi": "Gói",
+   "don_gia": "194000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!8",
+   "ma_hang": "SP1001",
+   "ten_hang": "Siro ho Prospan 100ml",
+   "don_vi": "Chai",
+   "don_gia": "17600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!9",
+   "ma_hang": "TH1002",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "226400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!10",
+   "ma_hang": "DP1003",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Lọ",
+   "don_gia": "96000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!11",
+   "ma_hang": "DP1004",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Viên",
+   "don_gia": "52600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!12",
+   "ma_hang": "DP1005",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Gói",
+   "don_gia": "25200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!13",
+   "ma_hang": "YT1006",
+   "ten_hang": "Clorpheniramin 4mg",
+   "don_vi": "Viên",
+   "don_gia": "219000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!14",
+   "ma_hang": "SP1007",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "29500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!17",
+   "ma_hang": "TH1008",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Chai",
+   "don_gia": "36300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!18",
+   "ma_hang": "SP1009",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Viên",
+   "don_gia": "16900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!19",
+   "ma_hang": "TH1010",
+   "ten_hang": "Nhiệt kế điện tử",
+   "don_vi": "Cái",
+   "don_gia": "29600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!20",
+   "ma_hang": "TH1011",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "35000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!21",
+   "ma_hang": "DP1012",
+   "ten_hang": "Cao xoa Sao Vàng",
+   "don_vi": "Hộp",
+   "don_gia": "150000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!22",
+   "ma_hang": "TH1013",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "13000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!23",
+   "ma_hang": "TH1014",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Tuýp",
+   "don_gia": "209000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!24",
+   "ma_hang": "TH1015",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "8100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!27",
+   "ma_hang": "DP1016",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Viên",
+   "don_gia": "209000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!28",
+   "ma_hang": "DP1017",
+   "ten_hang": "Decolgen",
+   "don_vi": "Vỉ",
+   "don_gia": "53000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!29",
+   "ma_hang": "YT1018",
+   "ten_hang": "Strepsils 24 viên",
+   "don_vi": "Hộp",
+   "don_gia": "111000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!30",
+   "ma_hang": "DP1019",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "238000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!31",
+   "ma_hang": "SP1020",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Ống",
+   "don_gia": "24700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!32",
+   "ma_hang": "YT1021",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Viên",
+   "don_gia": "132000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!33",
+   "ma_hang": "SP1022",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Viên",
+   "don_gia": "28400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!34",
+   "ma_hang": "YT1023",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Vỉ",
+   "don_gia": "109000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!37",
+   "ma_hang": "DP1024",
+   "ten_hang": "Máy đo huyết áp Omron HEM-7120",
+   "don_vi": "Vỉ",
+   "don_gia": "17400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!38",
+   "ma_hang": "SP1025",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Gói",
+   "don_gia": "181000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!39",
+   "ma_hang": "SP1026",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Lọ",
+   "don_gia": "138400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!40",
+   "ma_hang": "YT1027",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Chai",
+   "don_gia": "75000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!41",
+   "ma_hang": "TH1028",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "35200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!42",
+   "ma_hang": "SP1029",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Ống",
+   "don_gia": "16000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!43",
+   "ma_hang": "TH1030",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Chai",
+   "don_gia": "27900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!44",
+   "ma_hang": "SP1031",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Cái",
+   "don_gia": "209000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!47",
+   "ma_hang": "TH1032",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Hộp",
+   "don_gia": "22900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!48",
+   "ma_hang": "SP1033",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Lọ",
+   "don_gia": "113600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!49",
+   "ma_hang": "DP1034",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Gói",
+   "don_gia": "221000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!50",
+   "ma_hang": "SP1035",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "105000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!51",
+   "ma_hang": "SP1036",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Viên",
+   "don_gia": "34000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!52",
+   "ma_hang": "TH1037",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Tuýp",
+   "don_gia": "2700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!53",
+   "ma_hang": "DP1038",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Gói",
+   "don_gia": "116800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!54",
+   "ma_hang": "DP1039",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Chai",
+   "don_gia": "28000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!57",
+   "ma_hang": "SP1040",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Viên",
+   "don_gia": "223000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BaoGia!58",
+   "ma_hang": "TH1041",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "5400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

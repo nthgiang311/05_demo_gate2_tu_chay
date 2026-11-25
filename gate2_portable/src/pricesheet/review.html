@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PriceSheet - Trang duyệt</title>
+<style>
+  body { font: 14px/1.45 system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #1d2330; }
+  header { background: #1d2330; color: #fff; padding: 10px 16px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; }
+  main { padding: 16px; max-width: 1200px; margin: 0 auto; }
+  section { background: #fff; border: 1px solid #d9dde4; border-radius: 6px; padding: 12px 16px; margin-bottom: 14px; }
+  h2 { font-size: 15px; margin: 0 0 8px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border-bottom: 1px solid #e6e9ee; padding: 4px 8px; text-align: left; vertical-align: top; }
+  th { background: #f0f2f5; font-weight: 600; }
+  button { padding: 4px 10px; cursor: pointer; }
+  .state { font-weight: 700; padding: 2px 8px; border-radius: 10px; background: #e0e7ff; }
+  .warn { background: #fff4cc; border: 2px solid #e0a800; padding: 6px 10px; margin: 4px 0; border-radius: 4px; font-weight: 600; }
+  .block { color: #b00020; font-weight: 700; }
+  .err { background: #fde7e9; border: 1px solid #b00020; padding: 8px; border-radius: 4px; }
+  .muted { color: #6b7385; }
+  .low { background: #fff4cc; }
+  code { background: #eef0f4; padding: 0 4px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PriceSheet Normalizer - Trang duyệt</h1>
+  <span id="who"></span>
+  <span id="up" hidden>
+    <input type="file" id="file" accept=".xlsx,.xlsm,.xls">
+    <select id="mode"><option value="rule_first">rule_first</option><option value="llm_all">llm_all</option></select>
+    <button onclick="upload()">Tải lên</button>
+  </span>
+  <select id="sessions" onchange="openSession(this.value)"><option value="">-- chọn phiên --</option></select>
+</header>
+<main>
+  <div id="msg"></div>
+  <div id="view"></div>
+</main>
+<script>
+let ROLE = "", S = null;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const HOT = ["GIA_GOM_VAT", "HE_SO_GIA", "TONG_LECH", "LLM_UNAVAILABLE"];
+
+async function api(path, opts) {
+  const r = await fetch("/api/v1/review" + path, opts);
+  let body = null;
+  try { body = await r.json(); } catch (e) {}
+  if (!r.ok) {
+    const d = body && (body.detail && body.detail.error_code ? body.detail : body);
+    const code = d && (d.error_code || d.detail) || r.status;
+    const det = d && (d.error_detail || (typeof d.detail === "string" ? d.detail : "")) || "";
+    throw new Error(`${r.status} ${code} ${det}`);
+  }
+  return body;
+}
+const post = (path, obj) => api(path, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(obj || {})});
+function say(t, bad) { $("msg").innerHTML = t ? `<div class="${bad ? "err" : "muted"}">${esc(t)}</div>` : ""; }
+async function guard(fn) { try { say(""); await fn(); } catch (e) { say(e.message, true); } }
+
+async function init() {
+  await guard(async () => {
+    ROLE = (await api("/me")).role;
+    $("who").textContent = "Vai trò: " + ROLE;
+    $("up").hidden = ROLE !== "nguoi_xu_ly";
+    await refreshList();
+  });
+}
+async function refreshList(select) {
+  const l = await api("/sessions");
+  $("sessions").innerHTML = '<option value="">-- chọn phiên --</option>' +
+    l.map(x => `<option value="${esc(x.id)}">${esc(x.file)} [${esc(x.state)}]</option>`).join("");
+  if (select) $("sessions").value = select;
+}
+function upload() {
+  guard(async () => {
+    const f = $("file").files[0];
+    if (!f) throw new Error("Chưa chọn file");
+    const fd = new FormData();
+    fd.append("file", f); fd.append("mode", $("mode").value);
+    const r = await fetch("/api/v1/review/sessions", {method: "POST", body: fd});
+    const b = await r.json();
+    if (!r.ok) throw new Error(`${r.status} ${b.error_code || (b.detail && b.detail.error_code) || ""} ${b.error_detail || ""}`);
+    S = b; await refreshList(S.id); render();
+  });
+}
+function openSession(id) { if (id) guard(async () => { S = await api("/sessions/" + id); render(); }); }
+const act = (name, body) => guard(async () => { S = await post(`/sessions/${S.id}/${name}`, body); await refreshList(S.id); render(); });
+function reject() { const ly = prompt("Lý do trả lại:"); if (ly) act("reject", {ly_do: ly}); }
+function setCol(tid, f, confirm) {
+  const v = $(`sel_${tid}_${f}`).value;
+  if (!v) return say("Chọn cột trước", true);
+  act("override", {tables: {[tid]: {mapping: {[f]: v}, confirmed: confirm ? [f] : []}}});
+}
+let CX = [];
+const confirmMult = tid => act("override", {tables: {[tid]: {confirmed: ["multiplier"]}}});
+const decide = (i, st) => act("override", {rows: {[CX[i].nguon]: {trang_thai: st}}});
+
+function render() {
+  if (!S) return;
+  const r = S.result, nxl = ROLE === "nguoi_xu_ly", kt = ROLE === "ke_toan";
+  let h = `<section><h2>${esc(S.file)} <span class="state">${esc(S.state)}</span>
+    <span class="muted">status: ${esc(r.status)}, ${r.rows.length} dòng, LLM: ${r.llm.calls} lần, ${r.llm.tokens_in}+${r.llm.tokens_out} token, US$${r.llm.usd}</span></h2>`;
+  if (S.ly_do_tra_lai) h += `<div class="warn">Kế toán trả lại: ${esc(S.ly_do_tra_lai)}</div>`;
+  h += `<p>`;
+  if (nxl) h += `<button onclick="act('submit')" ${S.state === "cho_xu_ly" && !S.co_blocking ? "" : "disabled"}>Gửi duyệt</button> `;
+  if (kt) h += `<button onclick="act('approve')" ${S.state === "cho_duyet" ? "" : "disabled"}>Duyệt</button>
+    <button onclick="reject()" ${S.state === "cho_duyet" ? "" : "disabled"}>Trả lại</button>
+    <a href="/api/v1/review/sessions/${esc(S.id)}/export?format=csv" ${["da_duyet", "da_xuat"].includes(S.state) ? "" : 'style="pointer-events:none;opacity:.4"'}>Xuất CSV</a>
+    <a href="/api/v1/review/sessions/${esc(S.id)}/export?format=json" ${["da_duyet", "da_xuat"].includes(S.state) ? "" : 'style="pointer-events:none;opacity:.4"'}>Xuất out.json</a>`;
+  h += `</p>`;
+  const hot = r.warnings.filter(w => HOT.includes(w.code));
+  const rowHot = {};
+  r.rows.forEach(x => x.ma_van_de.forEach(c => { if (HOT.includes(c)) rowHot[c] = (rowHot[c] || 0) + 1; }));
+  hot.forEach(w => h += `<div class="warn">${esc(w.code)}: ${esc(w.detail)}</div>`);
+  Object.entries(rowHot).forEach(([c, n]) => h += `<div class="warn">${esc(c)}: ${n} dòng</div>`);
+  const other = r.warnings.filter(w => !HOT.includes(w.code));
+  if (other.length) h += `<p class="muted">Cảnh báo khác: ${other.map(w => esc(w.code + " " + w.detail)).join("; ")}</p>`;
+  h += `</section>`;
+
+  const q = [...r.review_queue].sort((a, b) => b.blocking - a.blocking);
+  h += `<section><h2>Hàng đợi duyệt (${q.length})</h2>` + (q.length ? `<table><tr><th>id</th><th>loại</th><th>bảng</th><th>trường / dòng</th><th>lý do</th><th></th></tr>` +
+    q.map(x => `<tr><td>${esc(x.id)}</td><td>${esc(x.kind)}</td><td>${esc(x.table)}</td><td>${esc(x.field || x.nguon)}</td><td>${esc(x.reason)}</td>
+    <td>${x.blocking ? '<span class="block">BLOCKING</span>' : ""}</td></tr>`).join("") + `</table>` : `<span class="muted">Trống</span>`) + `</section>`;
+
+  r.tables.forEach(t => {
+    const names = S.columns[t.id] || {};
+    h += `<section><h2>Bảng ${esc(t.id)} - sheet ${esc(t.sheet)}</h2>
+      <p>Dòng tiêu đề: ${esc(t.header_rows.join(", "))}. Dữ liệu: dòng ${esc(t.data_rows.join(" - "))}.
+      Tiền tệ: ${esc((t.context.tien_te || {}).value)} (${esc((t.context.tien_te || {}).cell)}).
+      Hiệu lực: ${esc((t.context.hieu_luc_tu || {}).value)} (${esc((t.context.hieu_luc_tu || {}).cell)}).
+      Hệ số giá: ${esc(((t.context.multiplier || {}).value))}
+      ${nxl ? `<button onclick="confirmMult('${t.id}')">Xác nhận hệ số giá</button>` : ""}</p>
+      <table><tr><th>Trường</th><th>Cột</th><th>Tin cậy</th><th>Nguồn</th><th>Ô tiêu đề</th>${nxl ? "<th>Chọn lại cột</th>" : ""}</tr>`;
+    ["ma_hang", "ten_hang", "don_vi", "don_gia", "tien_te", "hieu_luc_tu"].forEach(f => {
+      const m = t.mapping[f];
+      const opts = '<option value=""></option>' + Object.keys(names).map(c =>
+        `<option value="${c}" ${m && m.col === c ? "selected" : ""}>${c} - ${esc(names[c] || "(trống)")}</option>`).join("");
+      h += `<tr class="${m && m.review ? "low" : ""}"><td><b>${f}</b></td><td>${m ? esc(m.col) : "-"}</td><td>${m ? m.confidence : ""}</td>
+        <td>${m ? esc(m.source) : ""}</td><td>${m ? esc((m.evidence || []).join(", ")) : ""}</td>` +
+        (nxl ? `<td><select id="sel_${t.id}_${f}">${opts}</select> <button onclick="setCol('${t.id}','${f}',true)">Xác nhận</button></td>` : "") + `</tr>`;
+    });
+    h += `</table>`;
+    if (t.totals && t.totals.length) h += `<p class="warn">Tổng lệch: ${t.totals.filter(x => !x.match).map(x => `dòng ${x.row} in ${esc(x.printed)} tính ${esc(x.computed)}`).join("; ")}</p>`;
+    h += `</section>`;
+  });
+
+  const cx = CX = r.rows.filter(x => x.trang_thai === "can_xem");
+  h += `<section><h2>Dòng cần xem (${cx.length})</h2>` + (cx.length ? `<table><tr><th>Nguồn</th><th>Mã vấn đề</th><th>Ô nguồn / giá trị gốc</th><th>Giá</th>${nxl ? "<th></th>" : ""}</tr>` +
+    cx.map((x, i) => `<tr><td>${esc(x.nguon)}</td><td>${esc(x.ma_van_de.join("; "))}</td>
+      <td>${Object.entries(x.src).map(([f, c]) => `${esc(f)}=${esc(c)}: <code>${esc((S.raw[x.nguon] || {})[f])}</code>`).join("<br>")}</td>
+      <td>${esc(x.don_gia)}</td>` + (nxl ? `<td><button onclick="decide(${i},'ok')">Giữ</button>
+      <button onclick="decide(${i},'bo')">Bỏ</button></td>` : "") + `</tr>`).join("") + `</table>` : `<span class="muted">Không có</span>`) + `</section>`;
+
+  h += `<section><h2>Lịch sử</h2><table><tr><th>Lúc</th><th>Ai</th><th>Việc</th></tr>` +
+    S.lich_su.map(x => `<tr><td>${esc(x.luc)}</td><td>${esc(x.ai)}</td><td>${esc(x.viec)}</td></tr>`).join("") + `</table></section>`;
+  $("view").innerHTML = h;
+}
+init();
+</script>
+</body>
+</html>

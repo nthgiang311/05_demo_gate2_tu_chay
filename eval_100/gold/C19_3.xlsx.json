@@ -1,0 +1,176 @@
+{
+ "file": "C19_3.xlsx",
+ "category": 19,
+ "category_desc": "Tiền USD / cột tiền tệ",
+ "variant": 3,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    3
+   ],
+   "data_first": 4,
+   "data_last": 18,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!4",
+   "ma_hang": "YT1000",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Viên",
+   "don_gia": "127.68",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!5",
+   "ma_hang": "YT1001",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "467.71",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!6",
+   "ma_hang": "DP1002",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "7.01",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "SP1003",
+   "ten_hang": "Siro ho Prospan 100ml",
+   "don_vi": "Chai",
+   "don_gia": "199.95",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "TH1004",
+   "ten_hang": "Glucosamin 1500mg",
+   "don_vi": "Lọ",
+   "don_gia": "97.36",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "TH1005",
+   "ten_hang": "Decolgen",
+   "don_vi": "Vỉ",
+   "don_gia": "290.81",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "YT1006",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "149",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "DP1007",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "146.01",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "DP1008",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": "253.15",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "DP1009",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Viên",
+   "don_gia": "60.59",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "SP1010",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Cái",
+   "don_gia": "81.91",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "SP1011",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "442.78",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "TH1012",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "249.11",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "TH1013",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Hộp",
+   "don_gia": "150.55",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "DP1014",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Gói",
+   "don_gia": "483.25",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

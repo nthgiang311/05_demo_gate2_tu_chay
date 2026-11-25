@@ -1,0 +1,608 @@
+{
+ "file": "C08_3.xlsx",
+ "category": 8,
+ "category_desc": "Nhiều sheet hiện",
+ "variant": 3,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "Thuoc",
+   "header_rows": [
+    3
+   ],
+   "data_first": 4,
+   "data_last": 21,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  },
+  {
+   "sheet": "Vat tu",
+   "header_rows": [
+    3
+   ],
+   "data_first": 4,
+   "data_last": 14,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  },
+  {
+   "sheet": "TPCN",
+   "header_rows": [
+    3
+   ],
+   "data_first": 4,
+   "data_last": 14,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  },
+  {
+   "sheet": "My pham",
+   "header_rows": [
+    3
+   ],
+   "data_first": 4,
+   "data_last": 17,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "Thuoc!4",
+   "ma_hang": "YT1000",
+   "ten_hang": "Vitamin C 1000mg",
+   "don_vi": "Tuýp",
+   "don_gia": "57000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!5",
+   "ma_hang": "YT1001",
+   "ten_hang": "Nhiệt kế điện tử",
+   "don_vi": "Cái",
+   "don_gia": "27200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!6",
+   "ma_hang": "TH1002",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Cái",
+   "don_gia": "24000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!7",
+   "ma_hang": "DP1003",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Chai",
+   "don_gia": "57600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!8",
+   "ma_hang": "YT1004",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "153600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!9",
+   "ma_hang": "DP1005",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Gói",
+   "don_gia": "9900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!10",
+   "ma_hang": "DP1006",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Vỉ",
+   "don_gia": "6600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!11",
+   "ma_hang": "DP1007",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Ống",
+   "don_gia": "185000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!12",
+   "ma_hang": "SP1008",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": "116600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!13",
+   "ma_hang": "YT1009",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Gói",
+   "don_gia": "206200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!14",
+   "ma_hang": "DP1010",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Tuýp",
+   "don_gia": "19900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!15",
+   "ma_hang": "YT1011",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Gói",
+   "don_gia": "214800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!16",
+   "ma_hang": "YT1012",
+   "ten_hang": "Strepsils 24 viên",
+   "don_vi": "Hộp",
+   "don_gia": "25600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!17",
+   "ma_hang": "YT1013",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "4100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!18",
+   "ma_hang": "DP1014",
+   "ten_hang": "Vitamin B1 100mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "28800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!19",
+   "ma_hang": "TH1015",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "25000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!20",
+   "ma_hang": "YT1016",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Lọ",
+   "don_gia": "11900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Thuoc!21",
+   "ma_hang": "DP1017",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "239800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!4",
+   "ma_hang": "YT1000",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Gói",
+   "don_gia": "35100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!5",
+   "ma_hang": "DP1001",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Gói",
+   "don_gia": "9600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!6",
+   "ma_hang": "SP1002",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Gói",
+   "don_gia": "7700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!7",
+   "ma_hang": "SP1003",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "146000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!8",
+   "ma_hang": "DP1004",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "27700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!9",
+   "ma_hang": "YT1005",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Viên",
+   "don_gia": "125600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!10",
+   "ma_hang": "YT1006",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Tuýp",
+   "don_gia": "65000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!11",
+   "ma_hang": "YT1007",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Viên",
+   "don_gia": "76000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!12",
+   "ma_hang": "TH1008",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "13900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!13",
+   "ma_hang": "DP1009",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "24500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Vat tu!14",
+   "ma_hang": "TH1010",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Vỉ",
+   "don_gia": "200100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!4",
+   "ma_hang": "SP1000",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "15700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!5",
+   "ma_hang": "DP1001",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "10800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!6",
+   "ma_hang": "TH1002",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "216000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!7",
+   "ma_hang": "TH1003",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Viên",
+   "don_gia": "79500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!8",
+   "ma_hang": "YT1004",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Viên",
+   "don_gia": "14000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!9",
+   "ma_hang": "YT1005",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Lọ",
+   "don_gia": "246800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!10",
+   "ma_hang": "SP1006",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "147000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!11",
+   "ma_hang": "TH1007",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Viên",
+   "don_gia": "7100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!12",
+   "ma_hang": "TH1008",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Viên",
+   "don_gia": "22300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!13",
+   "ma_hang": "TH1009",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Lọ",
+   "don_gia": "10500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "TPCN!14",
+   "ma_hang": "YT1010",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Cái",
+   "don_gia": "163400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!4",
+   "ma_hang": "TH1000",
+   "ten_hang": "Cao xoa Sao Vàng",
+   "don_vi": "Hộp",
+   "don_gia": "157500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!5",
+   "ma_hang": "SP1001",
+   "ten_hang": "Siro ho Prospan 100ml",
+   "don_vi": "Chai",
+   "don_gia": "56400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!6",
+   "ma_hang": "SP1002",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "3900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!7",
+   "ma_hang": "YT1003",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "135200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!8",
+   "ma_hang": "YT1004",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "2600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!9",
+   "ma_hang": "TH1005",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "246500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!10",
+   "ma_hang": "SP1006",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Gói",
+   "don_gia": "69000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!11",
+   "ma_hang": "DP1007",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "181500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!12",
+   "ma_hang": "YT1008",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Cái",
+   "don_gia": "11700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!13",
+   "ma_hang": "SP1009",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Gói",
+   "don_gia": "23900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!14",
+   "ma_hang": "DP1010",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "75000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!15",
+   "ma_hang": "YT1011",
+   "ten_hang": "Decolgen",
+   "don_vi": "Vỉ",
+   "don_gia": "236000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!16",
+   "ma_hang": "SP1012",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "209300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "My pham!17",
+   "ma_hang": "SP1013",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Chai",
+   "don_gia": "26600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

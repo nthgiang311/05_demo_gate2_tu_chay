@@ -1,0 +1,256 @@
+{
+ "file": "C19_2.xlsx",
+ "category": 19,
+ "category_desc": "Tiền USD / cột tiền tệ",
+ "variant": 2,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    3
+   ],
+   "data_first": 4,
+   "data_last": 26,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!4",
+   "ma_hang": "YT1000",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "244.43",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!5",
+   "ma_hang": "TH1001",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "179.01",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!6",
+   "ma_hang": "DP1002",
+   "ten_hang": "Spironolacton 25mg",
+   "don_vi": "Hộp",
+   "don_gia": "481.5",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "TH1003",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Ống",
+   "don_gia": "87.99",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "TH1004",
+   "ten_hang": "Cao xoa Sao Vàng",
+   "don_vi": "Hộp",
+   "don_gia": "29.81",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "DP1005",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Tuýp",
+   "don_gia": "364.79",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "DP1006",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Gói",
+   "don_gia": "313.63",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "SP1007",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Viên",
+   "don_gia": "371.56",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "DP1008",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "32.5",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "DP1009",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Viên",
+   "don_gia": "2.91",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "SP1010",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Viên",
+   "don_gia": "309.31",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "YT1011",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "23.21",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "SP1012",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Viên",
+   "don_gia": "433.04",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "YT1013",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "38.31",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "SP1014",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Tuýp",
+   "don_gia": "301.29",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "DP1015",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "209.81",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "YT1016",
+   "ten_hang": "Domperidon 10mg",
+   "don_vi": "Viên",
+   "don_gia": "152.04",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "TH1017",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "146.65",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "SP1018",
+   "ten_hang": "Magne B6",
+   "don_vi": "Hộp",
+   "don_gia": "40.45",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "YT1019",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Cái",
+   "don_gia": "316.09",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "TH1020",
+   "ten_hang": "Spironolacton 25mg",
+   "don_vi": "Viên",
+   "don_gia": "382.08",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "YT1021",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "79.11",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "TH1022",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "383.16",
+   "tien_te": "USD",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

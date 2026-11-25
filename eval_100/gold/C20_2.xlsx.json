@@ -1,0 +1,10 @@
+{
+ "file": "C20_2.xlsx",
+ "category": 20,
+ "category_desc": "File hỏng / sai định dạng",
+ "variant": 2,
+ "expect_error": "FILE_EMPTY",
+ "tables": [],
+ "rows": [],
+ "hieu_luc_tu": null
+}

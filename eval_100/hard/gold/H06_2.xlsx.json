@@ -1,0 +1,485 @@
+{
+ "file": "H06_2.xlsx",
+ "category": 6,
+ "category_desc": "Hai cột giá theo Hộp và Vỉ",
+ "variant": 2,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 28,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_gia": "D"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!6",
+   "ma_hang": "SP1000",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Hộp",
+   "don_gia": "61000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "YT1001",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Hộp",
+   "don_gia": "122300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "SP1002",
+   "ten_hang": "Decolgen",
+   "don_vi": "Hộp",
+   "don_gia": "5000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "TH1003",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Hộp",
+   "don_gia": "195000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "YT1004",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "23500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "SP1005",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Hộp",
+   "don_gia": "149000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "YT1006",
+   "ten_hang": "Magne B6",
+   "don_vi": "Hộp",
+   "don_gia": "6800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "TH1007",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Hộp",
+   "don_gia": "22600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "SP1008",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Hộp",
+   "don_gia": "13900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "SP1009",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Hộp",
+   "don_gia": "218000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "DP1010",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Hộp",
+   "don_gia": "7400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "SP1011",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Hộp",
+   "don_gia": "190900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "SP1012",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Hộp",
+   "don_gia": "136000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "DP1013",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Hộp",
+   "don_gia": "10600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "SP1014",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Hộp",
+   "don_gia": "27400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "SP1015",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Hộp",
+   "don_gia": "143700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "SP1016",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Hộp",
+   "don_gia": "113000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "TH1017",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "30000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "TH1018",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Hộp",
+   "don_gia": "151000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "YT1019",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Hộp",
+   "don_gia": "12300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "DP1020",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": "196200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "TH1021",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "45500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "TH1022",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Hộp",
+   "don_gia": "14700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!6",
+   "ma_hang": "SP1000",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Vỉ",
+   "don_gia": "6500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "YT1001",
+   "ten_hang": "Paracetamol 500mg",
+   "don_vi": "Vỉ",
+   "don_gia": "12900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "SP1002",
+   "ten_hang": "Decolgen",
+   "don_vi": "Vỉ",
+   "don_gia": "600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "TH1003",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Vỉ",
+   "don_gia": "20500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "YT1004",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Vỉ",
+   "don_gia": "2500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "SP1005",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Vỉ",
+   "don_gia": "15700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "YT1006",
+   "ten_hang": "Magne B6",
+   "don_vi": "Vỉ",
+   "don_gia": "800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "TH1007",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Vỉ",
+   "don_gia": "2400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "SP1008",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Vỉ",
+   "don_gia": "1500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "SP1009",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Vỉ",
+   "don_gia": "22900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "DP1010",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Vỉ",
+   "don_gia": "800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "SP1011",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Vỉ",
+   "don_gia": "20100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "SP1012",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Vỉ",
+   "don_gia": "14300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "DP1013",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Vỉ",
+   "don_gia": "1200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "SP1014",
+   "ten_hang": "Eugica 100 viên",
+   "don_vi": "Vỉ",
+   "don_gia": "2900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "SP1015",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Vỉ",
+   "don_gia": "15100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "SP1016",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Vỉ",
+   "don_gia": "11900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "TH1017",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Vỉ",
+   "don_gia": "3200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "TH1018",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Vỉ",
+   "don_gia": "15900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "YT1019",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Vỉ",
+   "don_gia": "1300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "DP1020",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Vỉ",
+   "don_gia": "20700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "TH1021",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Vỉ",
+   "don_gia": "4800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "TH1022",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Vỉ",
+   "don_gia": "1600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

@@ -1,0 +1,236 @@
+{
+ "ghi_chu": "Chạy lõi với use_llm=False trên thư mục golden, chấm bằng eval/pricesheet/score.py. Mỗi chỉ số là [đúng, tổng].",
+ "nguon": {
+  "dev_va_p": "Bộ golden của lõi (test_files_v2, v3, p), chấm bằng score.py",
+  "t_mu": "Báo cáo đóng băng số mù T (DONG_BANG.md)"
+ },
+ "tong": {
+  "so_file": 55,
+  "header": [
+   54.0,
+   55.0
+  ],
+  "anh_xa": [
+   262.0,
+   266.0
+  ],
+  "gia_tri_o": [
+   120924.0,
+   122364.0
+  ],
+  "usd_tong": 0.0
+ },
+ "dev": {
+  "so_file": 39,
+  "header": [
+   36.0,
+   37.0
+  ],
+  "anh_xa": [
+   190.0,
+   194.0
+  ],
+  "gia_tri_o": [
+   92220.0,
+   93660.0
+  ],
+  "usd_tong": 0.0
+ },
+ "held_p": {
+  "so_file": 16,
+  "header": [
+   18.0,
+   18.0
+  ],
+  "anh_xa": [
+   72.0,
+   72.0
+  ],
+  "gia_tri_o": [
+   28704.0,
+   28704.0
+  ],
+  "usd_tong": 0.0
+ },
+ "nhom": {
+  "P": {
+   "ten": "Nhóm P (giữ lại, công khai)",
+   "so_file": 16,
+   "header": [
+    18.0,
+    18.0
+   ],
+   "anh_xa": [
+    72.0,
+    72.0
+   ],
+   "gia_tri_o": [
+    28704.0,
+    28704.0
+   ],
+   "usd_tong": 0.0
+  },
+  "F": {
+   "ten": "Nhóm F (MISA)",
+   "so_file": 11,
+   "header": [
+    10.0,
+    10.0
+   ],
+   "anh_xa": [
+    54.0,
+    54.0
+   ],
+   "gia_tri_o": [
+    7260.0,
+    7260.0
+   ],
+   "usd_tong": 0.0
+  },
+  "S": {
+   "ten": "Nhóm S (cỡ lớn)",
+   "so_file": 5,
+   "header": [
+    5.0,
+    5.0
+   ],
+   "anh_xa": [
+    30.0,
+    30.0
+   ],
+   "gia_tri_o": [
+    60684.0,
+    60684.0
+   ],
+   "usd_tong": 0.0
+  },
+  "V": {
+   "ten": "Nhóm V (giá trị)",
+   "so_file": 6,
+   "header": [
+    7.0,
+    7.0
+   ],
+   "anh_xa": [
+    42.0,
+    42.0
+   ],
+   "gia_tri_o": [
+    10800.0,
+    10800.0
+   ],
+   "usd_tong": 0.0
+  },
+  "L": {
+   "ten": "Nhóm L (thực tế)",
+   "so_file": 11,
+   "header": [
+    14.0,
+    15.0
+   ],
+   "anh_xa": [
+    64.0,
+    68.0
+   ],
+   "gia_tri_o": [
+    13476.0,
+    14916.0
+   ],
+   "usd_tong": 0.0
+  },
+  "B": {
+   "ten": "Nhóm B (file hỏng, chỉ kiểm mã lỗi)",
+   "so_file": 6,
+   "header": [
+    0.0,
+    0.0
+   ],
+   "anh_xa": [
+    0.0,
+    0.0
+   ],
+   "gia_tri_o": [
+    0.0,
+    0.0
+   ],
+   "usd_tong": 0.0
+  }
+ },
+ "t_mu": {
+  "so_file": 6,
+  "so_dong_dap_an": 1698,
+  "ghi_chu": "Số mù, đóng băng 20/11, md5 code và đáp án khớp",
+  "che_do": [
+   {
+    "ten": "Không mô hình",
+    "header": [
+     7,
+     7
+    ],
+    "anh_xa": [
+     21,
+     25
+    ],
+    "gia_tri_o": [
+     5917,
+     10188
+    ],
+    "usd_moi_file": 0
+   },
+   {
+    "ten": "Luật trước",
+    "header": [
+     7,
+     7
+    ],
+    "anh_xa": [
+     21,
+     25
+    ],
+    "gia_tri_o": [
+     "62,3%",
+     null
+    ],
+    "usd_moi_file": 0.0104
+   },
+   {
+    "ten": "Mô hình cho tất cả",
+    "header": [
+     7,
+     7
+    ],
+    "anh_xa": [
+     22,
+     25
+    ],
+    "gia_tri_o": [
+     "65,2%",
+     null
+    ],
+    "usd_moi_file": 0.0115
+   }
+  ],
+  "pct": {
+   "header": [
+    "100%",
+    "100%",
+    "100%"
+   ],
+   "anh_xa": [
+    "84,0%",
+    "84,0%",
+    "88,0%"
+   ],
+   "gia_tri_o": [
+    "58,1%",
+    "62,3%",
+    "65,2%"
+   ],
+   "usd_moi_file": [
+    "0",
+    "0,0104",
+    "0,0115"
+   ]
+  }
+ }
+}

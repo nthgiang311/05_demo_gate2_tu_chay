@@ -1,0 +1,336 @@
+{
+ "file": "C11_4.xlsx",
+ "category": 11,
+ "category_desc": "Giá Liên hệ / trống / 0 / khoảng giá",
+ "variant": 4,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 36,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!6",
+   "ma_hang": "SP1000",
+   "ten_hang": "Magne B6",
+   "don_vi": "Hộp",
+   "don_gia": "173000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "DP1001",
+   "ten_hang": "Vitamin C 1000mg",
+   "don_vi": "Tuýp",
+   "don_gia": "182400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "YT1002",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "59000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "SP1003",
+   "ten_hang": "Oresol 4,1g",
+   "don_vi": "Vỉ",
+   "don_gia": "22400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "SP1004",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Viên",
+   "don_gia": null,
+   "tien_te": "VND",
+   "expect_ok": false,
+   "trap": "gia_trong"
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "DP1005",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": null,
+   "tien_te": "VND",
+   "expect_ok": false,
+   "trap": "gach"
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "SP1006",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "175000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "DP1007",
+   "ten_hang": "Magne B6",
+   "don_vi": "Gói",
+   "don_gia": "17400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "YT1008",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Ống",
+   "don_gia": "205000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "TH1009",
+   "ten_hang": "Smecta 3g",
+   "don_vi": "Gói",
+   "don_gia": "129200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "TH1010",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "180800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "SP1011",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "71000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "TH1012",
+   "ten_hang": "Nhiệt kế điện tử",
+   "don_vi": "Chai",
+   "don_gia": "190000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "YT1013",
+   "ten_hang": "Magne B6",
+   "don_vi": "Hộp",
+   "don_gia": null,
+   "tien_te": "VND",
+   "expect_ok": false,
+   "trap": "gach"
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "YT1014",
+   "ten_hang": "Máy đo huyết áp Omron HEM-7120",
+   "don_vi": "Cái",
+   "don_gia": "136000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "YT1015",
+   "ten_hang": "Decolgen",
+   "don_vi": "Cái",
+   "don_gia": "127000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "YT1016",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "56000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "DP1017",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "121000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "YT1018",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Ống",
+   "don_gia": null,
+   "tien_te": "VND",
+   "expect_ok": false,
+   "trap": "gach"
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "DP1019",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "232000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "YT1020",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Gói",
+   "don_gia": "56900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "TH1021",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "203000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "DP1022",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "63000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!29",
+   "ma_hang": "DP1023",
+   "ten_hang": "Canxi D3",
+   "don_vi": "Hộp",
+   "don_gia": null,
+   "tien_te": "VND",
+   "expect_ok": false,
+   "trap": "gach"
+  },
+  {
+   "nguon": "BG!30",
+   "ma_hang": "TH1024",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Gói",
+   "don_gia": "7100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!31",
+   "ma_hang": "SP1025",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Gói",
+   "don_gia": "42000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!32",
+   "ma_hang": "YT1026",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Chai",
+   "don_gia": null,
+   "tien_te": "VND",
+   "expect_ok": false,
+   "trap": "khoang_gia"
+  },
+  {
+   "nguon": "BG!33",
+   "ma_hang": "DP1027",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Chai",
+   "don_gia": "13000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!34",
+   "ma_hang": "SP1028",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Vỉ",
+   "don_gia": null,
+   "tien_te": "VND",
+   "expect_ok": false,
+   "trap": "gach"
+  },
+  {
+   "nguon": "BG!35",
+   "ma_hang": "SP1029",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "25000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!36",
+   "ma_hang": "SP1030",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Viên",
+   "don_gia": "224400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

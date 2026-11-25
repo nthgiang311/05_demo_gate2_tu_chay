@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đánh giá AI: 133 bảng giá</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&display=swap&subset=vietnamese" rel="stylesheet">
+<style>
+/* VOICE: báo cáo kết quả nghiên cứu gửi mentor; kết luận trước, lời thường, không chi tiết code.
+   IDEA: bảng đối soát: mỗi dòng đáp án dò với kết quả của tool, các cách chạy đặt cạnh nhau.
+   PICTURE: thanh ngang theo cách chạy cho 2 bộ dữ liệu: đúng / sai mà không báo / thiếu hoặc bị chặn.
+   COLOUR and TYPE: nền trắng, mực #0b0b10, xanh #00a862 cho đúng, đỏ gạch cho lỗi không báo; Space Grotesk + Inter.
+   LAYOUT: tiêu đề kết luận, biểu đồ, hàng số liệu, rồi các mục theo thứ tự câu hỏi nghiên cứu. */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#07130d);--ink:light-dark(#0b0b10,#e8f3ec);--mute:light-dark(#5a5f66,#9db3a6);
+--line:light-dark(#e3e6e8,#1f3328);--ok:#00a862;--mist:light-dark(#eafaf2,#0d2419);--bad:light-dark(#c2410c,#fb8b5a);--miss:light-dark(#b9bec4,#4a5a52)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(28px,4vw,64px) max(5vw,16px)}.wrap{max-width:1240px;margin:0 auto}.alt{background:var(--mist)}
+h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.08;text-wrap:balance;margin:0}
+h1{font-size:clamp(32px,4.2vw,50px);font-weight:700;max-width:24ch}
+h2{font-size:clamp(24px,2.6vw,32px);font-weight:700;margin-bottom:14px}
+h3{font-size:19px;font-weight:500;margin:26px 0 8px}
+p{max-width:72ch;margin:0 0 12px}.lede{font-size:17px;color:var(--mute);margin-top:16px}
+nav.scroll{display:flex;gap:18px;white-space:nowrap;padding:12px max(5vw,16px);border-bottom:1px solid var(--line);font-size:14px;overflow-x:auto}
+nav a{color:var(--ink)}
+@media(min-width:900px){nav.scroll{position:sticky;top:0;background:var(--bg);z-index:2}}
+.sets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,4vw,48px);margin-top:28px}
+@media(max-width:800px){.sets{grid-template-columns:minmax(0,1fr)}}
+.sets h3{margin:0 0 12px}
+.bars{display:grid;gap:14px}
+.bar-h{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:14px;margin-bottom:5px}
+.bar-h b{font-weight:600}.bar-h span{color:var(--mute);white-space:nowrap}
+.bar{display:flex;height:26px;border-radius:4px;overflow:hidden;background:var(--line)}
+.bar i{display:block;height:100%}.s-ok{background:var(--ok)}.s-bad{background:var(--bad)}.s-miss{background:var(--miss)}
+.legend{display:flex;gap:20px;flex-wrap:wrap;font-size:14px;color:var(--mute);margin-top:16px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:2px solid var(--ink);margin-top:30px}
+.figs div{padding:14px 14px 4px 0;border-right:1px solid var(--line)}.figs div:last-child{border:0}
+.figs b{display:block;font:700 clamp(26px,3vw,36px)/1.1 "Space Grotesk";white-space:nowrap}
+.figs small{font-size:14px;color:var(--mute);display:block}
+@media(max-width:700px){.figs{grid-template-columns:repeat(2,minmax(0,1fr))}.figs div:nth-child(2){border:0}}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:10px 0 6px}
+th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:600;font-size:14px;color:var(--mute);border-bottom:2px solid var(--ink)}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.good{color:var(--ok);font-weight:600}.warn{color:var(--bad);font-weight:600}
+.scroll{overflow-x:auto}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,4vw,56px)}
+@media(max-width:800px){.cols{grid-template-columns:minmax(0,1fr)}}
+.callout{border-left:4px solid var(--bad);padding:4px 0 4px 16px;margin:18px 0}
+.callout.ok{border-color:var(--ok)}
+ul,ol{padding-left:1.2em;max-width:74ch}li{margin-bottom:7px}
+.note{font-size:14px;color:var(--mute)}
+a:focus-visible{outline:3px solid var(--ok);outline-offset:2px}
+@media(max-width:600px){table{font-size:13px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:8em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7.5em;margin-inline-start:-8em;white-space:normal;color:var(--mute)}.stack td:empty{display:none}}
+@media(prefers-reduced-motion:no-preference){.bar i{transition:width .8s ease}}
+</style><script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script></head><body>
+
+<header class="band alt"><div class="wrap">
+<h1>AI giúp được ở những tiêu đề mơ hồ, nhưng phần lớn lợi ích đó viết lại được thành luật. Rủi ro lớn nhất còn lại là lỗi sai mà không báo</h1>
+<p class="lede">Báo cáo kết quả kiểm thử AI agent của PriceSheet Normalizer trên 133 file bảng giá, tổng 4.058 dòng hàng có đáp án. Bộ 100 file gồm các lỗi thường gặp. Bộ khó 33 file gồm những tình huống phải hiểu nghiệp vụ mới chọn đúng. Mô hình AI: gpt-4o-mini. Ngày chạy: 25/11/2026.</p>
+<div class="sets">
+<div><h3>Bộ 100 file (3.193 dòng)</h3><div class="bars" id="b1"></div></div>
+<div><h3>Bộ khó 33 file (865 dòng)</h3><div class="bars" id="b2"></div></div>
+</div>
+<div class="legend"><span><i class="s-ok"></i>Dòng đúng hoàn toàn</span><span><i class="s-bad"></i>Sai nhưng tool vẫn báo bình thường (sẽ vào file MISA)</span><span><i class="s-miss"></i>Thiếu dòng, hoặc sai nhưng tool đã chặn hay báo lỗi</span></div>
+<div class="figs">
+<div><b>94 → 97</b><small>file đúng hoàn toàn trên 100, từ chỉ dùng luật sang có AI</small></div>
+<div><b>97 / 0</b><small>file đúng / lần gọi AI, sau khi viết lại cách AI suy luận thành luật</small></div>
+<div><b>290</b><small>dòng sai mà không báo ở bộ khó, kể cả khi dùng AI cho mọi file</small></div>
+<div><b>$0,032</b><small>tổng chi phí AI cho cả 133 file khi dùng AI cho mọi file</small></div>
+</div>
+</div></header>
+
+<nav class="scroll" aria-label="Mục lục"><a href="#cach-test">Cách kiểm thử</a><a href="#ket-qua">Kết quả</a><a href="#ai-dung">AI đúng, luật sai</a><a href="#luat-v2">Luật v2</a><a href="#ai-sai">AI vẫn sai</a><a href="#de-xuat">Đề xuất</a></nav>
+
+<section class="band" id="cach-test"><div class="wrap">
+<h2>Cách kiểm thử</h2>
+<div class="cols">
+<div>
+<h3>Hai bộ dữ liệu</h3>
+<ul>
+<li><b>Bộ 100 file:</b> 20 loại lỗi, mỗi loại 5 biến thể. Gồm: tiêu đề nằm sâu, tiêu đề lặp mỗi trang, ô gộp, dòng nhóm và dòng tổng, dòng ẩn, giá ghi bằng chữ ("65.000đ"), giá theo nghìn đồng, giá "Liên hệ", mã trùng, tên cột lạ, tiêu đề tiếng Anh, bố cục lạ, giá USD, và 5 file hỏng. Có 61 dòng "bẫy" mà tool phải chặn lại.</li>
+<li><b>Bộ khó 33 file:</b> 11 loại, mỗi loại 3 biến thể, gồm các tình huống phải hiểu nghiệp vụ: có cả giá cũ và giá mới, giá khuyến mãi, giá theo số lượng mua, mã và tên viết chung một ô, đơn vị tính nằm trong tên hàng, giá theo hộp và theo vỉ, tiêu đề tiếng Trung/Hàn/Nhật…</li>
+<li>Đáp án của từng file được ghi ngay khi tạo file, độc lập với kết quả của tool.</li>
+</ul>
+</div>
+<div>
+<h3>Các cách chạy được so sánh</h3>
+<ul>
+<li><b>Chỉ luật:</b> không dùng AI.</li>
+<li><b>Luật trước:</b> cách chạy mặc định của tool. Luật xử lý trước, chỉ gọi AI khi luật không chắc.</li>
+<li><b>AI cho mọi file:</b> gọi AI cho tất cả các bảng.</li>
+<li><b>Luật v2</b> và <b>Luật v2 + AI khi cần:</b> luật đã được cải tiến dựa trên những gì học được từ AI (xem mục Luật v2).</li>
+</ul>
+<p class="note">Mỗi dòng được chấm 5 thông tin: mã hàng, tên hàng, đơn vị tính, đơn giá, tiền tệ. Một dòng chỉ tính là đúng khi cả 5 thông tin đều đúng.</p>
+</div>
+</div>
+</div></section>
+
+<section class="band alt" id="ket-qua"><div class="wrap">
+<h2>Kết quả theo từng cách chạy</h2>
+<div class="scroll"><table>
+<thead><tr><th>Chỉ số</th><th class="n">Chỉ luật</th><th class="n">Luật trước</th><th class="n">AI cho mọi file</th><th class="n">Luật v2</th><th class="n">Luật v2 + AI khi cần</th></tr></thead>
+<tbody id="mtab"></tbody></table></div>
+<p class="note">"Dòng sai mà không báo": dòng tool coi là bình thường (sẽ được đưa vào file MISA) nhưng sai ít nhất một thông tin, hoặc lẽ ra phải bị chặn.</p>
+<div class="callout ok"><p><b>Ở bộ 100 file, phần cốt lõi đã ổn định ngay từ luật.</b> Với cả 5 cách chạy, mọi dòng tool đọc được đều đúng mã, tên, đơn giá và tiền tệ. Tool không lấy nhầm dòng nhóm hay dòng tổng, chặn đủ 61/61 dòng bẫy, và báo đúng cả 5/5 file hỏng. Các cách chạy chỉ khác nhau ở đơn vị tính. Khi được gọi, AI đề xuất đúng 415/419 lần.</p></div>
+</div></section>
+
+<section class="band" id="ai-dung"><div class="wrap">
+<h2>Những trường hợp luật sai mà AI đúng</h2>
+<p>AI làm tốt hơn luật ở cùng một kiểu tình huống: <b>tiêu đề cột không rõ nghĩa, nhưng dữ liệu trong cột thì rõ</b>. Luật chỉ đọc chữ ở tiêu đề. AI nhìn được cả tiêu đề lẫn vài dòng dữ liệu mẫu, nên đoán được ý nghĩa của cột.</p>
+<div class="scroll"><table class="stack">
+<thead><tr><th>File</th><th>Tình huống</th><th>Chỉ luật</th><th>Có AI</th><th>Vì sao luật sai</th></tr></thead>
+<tbody>
+<tr><td><b>C17_2</b></td><td>Cột đơn vị tính có tiêu đề viết tắt "Đ/v"; file có thêm cột Quy cách</td><td class="warn">Mọi dòng ghi "Hộp", sai 30/35 dòng</td><td class="good">Viên, Ống, Chai, Vỉ… đúng 35/35</td><td>Luật không nhận ra "Đ/v" là đơn vị tính vì có dấu gạch chéo. Không thấy cột đơn vị, luật lấy chữ đầu của cột Quy cách ("Hộp 3 vỉ x 10 viên")</td></tr>
+<tr><td><b>C17_5</b></td><td>Tiêu đề "Đ/v", không có cột Quy cách</td><td class="warn">Đơn vị tính bị bỏ trống, 36/36 dòng</td><td class="good">Đúng 36/36</td><td>Như trên</td></tr>
+<tr><td><b>C15_5</b></td><td>Tiêu đề "Đ.vị"</td><td class="warn">Đơn vị tính trống ở 33/33 dòng, file vẫn báo bình thường</td><td class="good">Đúng 33/33 (chỉ khi dùng AI cho mọi file)</td><td>Luật không nhận ra "Đ.vị". Ở cách chạy mặc định, AI cũng không được gọi, vì tool chỉ gọi AI khi thiếu cột tên hoặc cột giá, không xét đến cột đơn vị</td></tr>
+<tr><td><b>H03</b> (3 file)</td><td>Giá chia theo số lượng mua: "SL 1-9 / SL 10-49 / SL từ 50"</td><td class="warn">Báo lỗi không tìm thấy cột giá</td><td class="good">Chọn đúng giá mua lẻ, 76/76 dòng</td><td>Luật coi mọi cột giá theo số lượng là cột phụ</td></tr>
+<tr><td><b>H09_2, H09_3</b></td><td>Cột giá có tiêu đề "VNĐ" hoặc "(5)"</td><td class="warn">Báo lỗi không tìm thấy cột giá</td><td class="good">Đúng 45/45 dòng</td><td>Tiêu đề không có chữ "giá". AI nhận ra đây là cột giá vì toàn là số tiền</td></tr>
+<tr><td><b>H11_1, H11_3</b></td><td>Tiêu đề viết trên 2 dòng, không gộp ô ("Đơn" ở dòng trên, "giá" ở dòng dưới)</td><td class="warn">Báo lỗi, hoặc thiếu đơn vị tính</td><td class="good">Đúng 50/50 dòng</td><td>Luật đọc từng dòng tiêu đề riêng lẻ nên không ghép được nghĩa</td></tr>
+</tbody></table></div>
+<p>Ngoài ra, ở 5 file khác, luật đã đoán đúng nhưng không chắc chắn, do gặp tiêu đề lạ như "Mặt hàng" hay "Price excl. VAT". AI xác nhận lại, nên người dùng không phải duyệt tay những file này.</p>
+<div class="callout"><p><b>AI được gọi ở C17_2 là nhờ may.</b> Tool gọi AI vì cột tên hàng ("T.Hàng") không chắc chắn, chứ không phải vì phát hiện thiếu cột đơn vị. File C15_5 có cùng lỗi đơn vị tính, nhưng cột tên đủ chắc chắn, nên AI không được gọi và 33 dòng thiếu đơn vị tính vẫn đi thẳng vào kết quả.</p></div>
+</div></section>
+
+<section class="band alt" id="luat-v2"><div class="wrap">
+<h2>Luật v2: viết lại cách AI suy luận thành luật, bộ 100 file không cần gọi AI lần nào</h2>
+<p>Từ những trường hợp ở trên, nhóm cải tiến luật ở 3 điểm và chạy lại cả hai bộ dữ liệu:</p>
+<ol>
+<li><b>Bổ sung các cách gọi tên cột còn thiếu:</b> "Mặt hàng", "T.Hàng" cho tên hàng; "Price excl. VAT", "Net price", "Giá phân phối" cho đơn giá; "Đ.vị" cho đơn vị tính.</li>
+<li><b>Hiểu tiêu đề viết tắt có dấu câu:</b> "Đ/v", "Đ.vị" được hiểu là đơn vị tính.</li>
+<li><b>Nhận cột đơn vị tính qua nội dung:</b> nếu tiêu đề không rõ nhưng cột toàn những chữ như Viên, Hộp, Chai, Ống, thì đó là cột đơn vị tính. Đây chính là cách AI đã suy luận.</li>
+</ol>
+<h3>Kết quả</h3>
+<ul>
+<li>Bộ 100 file, <b>chỉ dùng luật v2, không gọi AI</b>: 97/100 file đúng hoàn toàn và 0 dòng sai mà không báo. Kết quả này bằng đúng cách chạy dùng AI cho mọi file. Không file nào bị kém đi so với luật cũ.</li>
+<li>Ở cách chạy mặc định, số lần gọi AI giảm từ <b>10 xuống 3</b>. 3 lần còn lại không làm thay đổi kết quả, nên có thể bỏ nốt bằng hai cải tiến nhỏ (mục Đề xuất).</li>
+<li>Số file phải chờ người duyệt giảm từ 20 xuống 13.</li>
+<li>Ở bộ khó, luật v2 sửa thêm được 22 dòng. Các tình huống còn lại vẫn cần AI, hoặc cần cách xử lý mới (mục sau).</li>
+<li>Luật v2 đã được đưa vào bản demo thành một lựa chọn riêng, đặt cạnh cách chạy mặc định để so sánh trực tiếp.</li>
+</ul>
+<p class="note">Về chi phí: tiền AI vốn rất nhỏ, khoảng 0,00025 USD mỗi file. Lợi ích thật của việc giảm gọi AI là tốc độ: với bộ 100 file, luật v2 chạy hết 7 giây, cách mặc định 83 giây, dùng AI cho mọi file 299 giây. Ngoài ra, tool không còn phụ thuộc kết nối mạng, và chạy lại luôn cho cùng kết quả.</p>
+</div></section>
+
+<section class="band" id="ai-sai"><div class="wrap">
+<h2>Những trường hợp AI vẫn sai</h2>
+<p>Ở bộ khó, kể cả khi dùng AI cho mọi file, vẫn còn <b>290 dòng sai mà không báo</b>, trong đó <b>81 dòng sai giá</b>. Nhóm đã xem lại từng trường hợp, so sánh câu trả lời của AI với kết quả cuối cùng của tool. Kết quả cho thấy có 3 nhóm nguyên nhân khác nhau.</p>
+
+<h3>Nhóm 1: AI chọn sai</h3>
+<div class="scroll"><table class="stack">
+<thead><tr><th>File</th><th>Tình huống</th><th>AI chọn</th><th>Hậu quả</th><th>Hướng xử lý</th></tr></thead>
+<tbody>
+<tr><td><b>H01</b> (3 file)</td><td>Có hai cột "Giá cũ" và "Giá mới", kèm dòng ghi chú "Điều chỉnh giá từ 01/12/2026"</td><td class="warn">Giá cũ (luật cũng chọn giá cũ)</td><td class="warn">60 dòng sai giá, tool không cảnh báo gì</td><td>Bổ sung luật ưu tiên cột "mới" hoặc "sau điều chỉnh", và hướng dẫn rõ cho AI. Khi có từ 2 cột giá trở lên, bắt buộc người duyệt chọn</td></tr>
+<tr><td><b>H06</b> (3 file)</td><td>Hai cột giá: một cột theo hộp, một cột theo vỉ</td><td class="warn">Trả lời lộn xộn, gán một cột cho nhiều thông tin; tool đã tự loại câu trả lời này</td><td>Mất giá theo vỉ, đơn vị tính bị trống</td><td>Cho phép tách mỗi cột giá thành một dòng hàng riêng</td></tr>
+</tbody></table></div>
+
+<h3>Nhóm 2: AI trả lời đúng, nhưng tool không dùng</h3>
+<div class="scroll"><table class="stack">
+<thead><tr><th>File</th><th>Tình huống</th><th>Vì sao câu trả lời đúng bị bỏ</th><th>Hướng xử lý</th></tr></thead>
+<tbody>
+<tr><td><b>H02_2</b></td><td>Cột "Giá ưu đãi" đứng trước cột "Giá gốc". AI chọn <b>Giá gốc</b>, là đáp án đúng</td><td>Luật hiểu "giá gốc" là <b>giá vốn</b> (giá nhập), nên loại cột này và loại luôn câu trả lời của AI. Luật cũng không biết "ưu đãi" là khuyến mãi, nên chọn cột Giá ưu đãi. Kết quả: <b>21 dòng sai giá, không cảnh báo</b>. Ở file cùng loại H02_3 (tiêu đề "Đơn giá khuyến mại" và "Đơn giá"), tool chọn đúng vì nhận ra chữ "khuyến mại"</td><td>Bổ sung "ưu đãi", "giảm giá" vào nhóm giá khuyến mãi. Chỉ hiểu "giá gốc" là giá vốn khi bên cạnh không có cột khuyến mãi. Khi tool bỏ câu trả lời của AI về cột giá thì phải chuyển cho người duyệt</td></tr>
+<tr><td><b>H09_1</b></td><td>Cột giá không có tiêu đề. AI chọn đúng cột giá</td><td>Tool chỉ xét những cột có tiêu đề, nên coi cột giá là "nằm ngoài bảng" và bỏ qua</td><td>Xét cả những cột liền kề có dữ liệu, dù tiêu đề trống</td></tr>
+<tr><td><b>H10</b> (3 file)</td><td>Tiêu đề tiếng Trung, Hàn, Nhật</td><td>Tool chỉ nhận dòng tiêu đề có tên cột tiếng Việt hoặc tiếng Anh, nên báo không tìm thấy tiêu đề, dù đã hỏi AI</td><td>Bổ sung các cách gọi tên cột bằng các thứ tiếng này. Chấp nhận dòng tiêu đề do AI chỉ ra nếu dữ liệu khớp</td></tr>
+</tbody></table></div>
+
+<h3>Nhóm 3: vượt ngoài phạm vi thiết kế hiện tại</h3>
+<p>Hiện tại AI chỉ được chỉ ra "cột nào là thông tin gì", không được sửa hay tách nội dung trong ô. Đây là thiết kế đúng về an toàn, vì AI không thể bịa ra giá. Nhưng vì vậy, các trường hợp sau không xử lý được:</p>
+<div class="scroll"><table class="stack">
+<thead><tr><th>File</th><th>Tình huống</th><th>Kết quả với mọi cách chạy</th></tr></thead>
+<tbody>
+<tr><td>H04 (3 file)</td><td>Mã và tên viết chung một ô: "TH1000 - Ibuprofen 400mg"</td><td>Mã hàng trống, tên hàng lẫn cả mã (tool có chuyển cho người duyệt)</td></tr>
+<tr><td>H05 (3 file)</td><td>Đơn vị tính nằm trong tên: "Bông y tế 100g (Gói)"</td><td class="warn">Đơn vị tính trống, 69 dòng không cảnh báo</td></tr>
+<tr><td>H07 (3 file)</td><td>Đơn vị tính nằm trong tiêu đề giá: "Đơn giá (đ/viên)"</td><td class="warn">Đơn vị tính trống, 71 dòng không cảnh báo</td></tr>
+<tr><td>C18_3</td><td>Hai bảng đặt cạnh nhau trên cùng một sheet</td><td class="warn">Mất 18 dòng của bảng bên phải, không cảnh báo</td></tr>
+<tr><td>C17_3, C18_1</td><td>Tiêu đề là "Cột 1, Cột 2…", hoặc không có tiêu đề</td><td>Tool báo lỗi rõ ràng (an toàn)</td></tr>
+</tbody></table></div>
+<p>Hướng xử lý: chuẩn bị sẵn một số cách tách dữ liệu đáng tin cậy, chẳng hạn tách mã ra khỏi tên, lấy đơn vị tính từ tên hàng hoặc từ tiêu đề, tách giá hộp và giá vỉ thành hai dòng. AI chỉ được chọn cách tách phù hợp, không được tự viết ra giá trị. Như vậy vẫn giữ được nguyên tắc an toàn hiện tại.</p>
+</div></section>
+
+<section class="band alt" id="de-xuat"><div class="wrap">
+<h2>Đề xuất, theo thứ tự ưu tiên</h2>
+<ol>
+<li><b>Ưu tiên cao nhất: chặn các lỗi sai mà không báo.</b> Việc này không cần AI, chỉ cần tool cảnh báo tốt hơn. Chuyển cho người duyệt khi:
+  <ul>
+  <li>đơn vị tính bị trống ở hơn một nửa số dòng;</li>
+  <li>trên sheet còn một bảng khác nằm ngoài vùng tool đã đọc;</li>
+  <li>có từ 2 cột giá trở lên mà không phải cặp "chưa VAT / có VAT", hoặc AI và luật chọn khác cột giá.</li>
+  </ul>
+  Sai giá là lỗi gây thiệt hại lớn nhất, nên tool không được tự chọn mà không báo.</li>
+<li><b>Dùng luật v2 làm mặc định</b> sau khi nhóm xem xét. Kết quả đo được: bộ 100 file đạt mức như dùng AI cho mọi file, mà không cần gọi AI.</li>
+<li><b>Sửa những chỗ tool đang bỏ qua câu trả lời đúng của AI</b>, tức nhóm 2: cách hiểu "giá gốc", cột giá không có tiêu đề, tiêu đề tiếng nước ngoài.</li>
+<li><b>Bổ sung các cách tách dữ liệu có sẵn, để AI chọn</b> cho nhóm 3.</li>
+<li><b>Bỏ nốt những lần gọi AI không cần thiết:</b> khi hai cột giá là cặp "chưa VAT / có VAT" rõ ràng, và khi một sheet có hai bảng giống nhau đặt cạnh nhau.</li>
+<li><b>Giữ nguyên cách làm "luật trước, AI khi cần".</b> AI nên dành cho những trường hợp thật sự mơ hồ.</li>
+</ol>
+</div></section>
+
+<script>
+{
+const pc=(a,b)=>(100*a/b).toFixed(1).replace(".",",")+"%";
+const M=["Chỉ luật","Luật trước","AI cho mọi file","Luật v2","Luật v2 + AI khi cần"];
+const S1={g:3193,r:[[3018,99,0],[3084,33,10],[3117,0,106],[3117,0,0],[3117,0,3]]};
+const S2={g:865,r:[[175,312,0],[324,312,13],[346,290,33],[197,290,0],[346,290,13]]};
+const bars=S=>S.r.map(([ok,bad,c],i)=>{const rest=S.g-ok-bad;return `<div><div class="bar-h"><b>${M[i]}</b><span>${pc(ok,S.g)} đúng · ${c} lần gọi AI</span></div>
+<div class="bar" role="img" aria-label="${M[i]}: ${ok} dòng đúng, ${bad} dòng sai mà không báo, ${rest} dòng thiếu hoặc bị chặn"><i class="s-ok" style="width:${100*ok/S.g}%"></i><i class="s-bad" style="width:${100*bad/S.g}%"></i><i class="s-miss" style="width:${100*rest/S.g}%"></i></div></div>`}).join("");
+document.getElementById("b1").innerHTML=bars(S1);
+document.getElementById("b2").innerHTML=bars(S2);
+const rows=[["Bộ 100: file đúng hoàn toàn","94/100","96/100","97/100","97/100","97/100"],
+["Bộ 100: dòng đúng hoàn toàn","94,5%","96,6%","97,6%","97,6%","97,6%"],
+["Bộ 100: dòng sai mà không báo","99","33","0","0","0"],
+["Bộ 100: file phải chờ người duyệt","20","15","16","13","13"],
+["Bộ 100: số lần gọi AI","0","10","106","0","3"],
+["Bộ 100: chi phí AI","0","0,0026 USD","0,0247 USD","0","0,0008 USD"],
+["Bộ 100: tổng thời gian xử lý","12 giây","83 giây","299 giây","7 giây","43 giây"],
+["Bộ khó: file đúng hoàn toàn","5/33","10/33","10/33","5/33","10/33"],
+["Bộ khó: dòng đúng hoàn toàn","20,2%","37,5%","40,0%","22,8%","40,0%"],
+["Bộ khó: dòng sai mà không báo","312","312","290","290","290"],
+["Bộ khó: số lần gọi AI","0","13","33","0","13"],
+["Bộ khó: chi phí AI","0","0,0033 USD","0,0077 USD","0","0,0033 USD"]];
+document.getElementById("mtab").innerHTML=rows.map(r=>`<tr><td>${r[0]}</td>${r.slice(1).map(v=>`<td class="n${v!==r[1]&&!/lần gọi|chi phí|thời gian/.test(r[0])?" good":""}">${v}</td>`).join("")}</tr>`).join("");
+}
+</script>
+</body>
+</html>

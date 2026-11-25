@@ -1,0 +1,285 @@
+{
+ "file": "H07_1.xlsx",
+ "category": 7,
+ "category_desc": "ĐVT nằm trong tiêu đề cột giá",
+ "variant": 1,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 31,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_gia": "D"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!6",
+   "ma_hang": "TH1000",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Viên",
+   "don_gia": "3900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "TH1001",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Viên",
+   "don_gia": "138400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "TH1002",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Viên",
+   "don_gia": "213200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "YT1003",
+   "ten_hang": "Vitamin C 1000mg",
+   "don_vi": "Viên",
+   "don_gia": "244200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "DP1004",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Viên",
+   "don_gia": "171000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "SP1005",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "71400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "DP1006",
+   "ten_hang": "Kim tiêm insulin 31G",
+   "don_vi": "Viên",
+   "don_gia": "10200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "TH1007",
+   "ten_hang": "Magne B6",
+   "don_vi": "Viên",
+   "don_gia": "203300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "YT1008",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Viên",
+   "don_gia": "120000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "YT1009",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Viên",
+   "don_gia": "133000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "DP1010",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Viên",
+   "don_gia": "30000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "TH1011",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Viên",
+   "don_gia": "70000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "SP1012",
+   "ten_hang": "Strepsils 24 viên",
+   "don_vi": "Viên",
+   "don_gia": "247000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "DP1013",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Viên",
+   "don_gia": "29300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "TH1014",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Viên",
+   "don_gia": "3100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "TH1015",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Viên",
+   "don_gia": "100000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "TH1016",
+   "ten_hang": "Ibuprofen 400mg",
+   "don_vi": "Viên",
+   "don_gia": "249300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "SP1017",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Viên",
+   "don_gia": "122000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "TH1018",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "76000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "DP1019",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Viên",
+   "don_gia": "13300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "DP1020",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Viên",
+   "don_gia": "174000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "SP1021",
+   "ten_hang": "Vitamin B1 100mg/ml",
+   "don_vi": "Viên",
+   "don_gia": "78000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "SP1022",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Viên",
+   "don_gia": "144700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!29",
+   "ma_hang": "TH1023",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Viên",
+   "don_gia": "174700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!30",
+   "ma_hang": "DP1024",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Viên",
+   "don_gia": "234200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!31",
+   "ma_hang": "TH1025",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Viên",
+   "don_gia": "20100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

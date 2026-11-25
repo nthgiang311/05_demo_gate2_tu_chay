@@ -1,0 +1,226 @@
+{
+ "file": "C16_1.xlsx",
+ "category": 16,
+ "category_desc": "Tiêu đề tiếng Anh",
+ "variant": 1,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "Price list",
+   "header_rows": [
+    4
+   ],
+   "data_first": 5,
+   "data_last": 24,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "Price list!5",
+   "ma_hang": "DP1000",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Ống",
+   "don_gia": "227600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!6",
+   "ma_hang": "YT1001",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Lọ",
+   "don_gia": "176800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!7",
+   "ma_hang": "TH1002",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Viên",
+   "don_gia": "165000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!8",
+   "ma_hang": "YT1003",
+   "ten_hang": "Clopidogrel 75mg",
+   "don_vi": "Viên",
+   "don_gia": "38900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!9",
+   "ma_hang": "DP1004",
+   "ten_hang": "Máy đo huyết áp Omron HEM-7120",
+   "don_vi": "Viên",
+   "don_gia": "14900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!10",
+   "ma_hang": "TH1005",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "151500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!11",
+   "ma_hang": "DP1006",
+   "ten_hang": "Alverin 40mg",
+   "don_vi": "Chai",
+   "don_gia": "217700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!12",
+   "ma_hang": "DP1007",
+   "ten_hang": "Tiffy",
+   "don_vi": "Vỉ",
+   "don_gia": "22700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!13",
+   "ma_hang": "TH1008",
+   "ten_hang": "Ambroxol 30mg",
+   "don_vi": "Viên",
+   "don_gia": "24100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!14",
+   "ma_hang": "TH1009",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Vỉ",
+   "don_gia": "245000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!15",
+   "ma_hang": "YT1010",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Lọ",
+   "don_gia": "21600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!16",
+   "ma_hang": "TH1011",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Hộp",
+   "don_gia": "11100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!17",
+   "ma_hang": "TH1012",
+   "ten_hang": "Vitamin C 1000mg",
+   "don_vi": "Tuýp",
+   "don_gia": "8200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!18",
+   "ma_hang": "SP1013",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "16400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!19",
+   "ma_hang": "DP1014",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "187300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!20",
+   "ma_hang": "YT1015",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Tuýp",
+   "don_gia": "4700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!21",
+   "ma_hang": "TH1016",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Viên",
+   "don_gia": "8000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!22",
+   "ma_hang": "DP1017",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Gói",
+   "don_gia": "233800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!23",
+   "ma_hang": "YT1018",
+   "ten_hang": "Strepsils 24 viên",
+   "don_vi": "Hộp",
+   "don_gia": "2100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!24",
+   "ma_hang": "DP1019",
+   "ten_hang": "Metformin 850mg",
+   "don_vi": "Tuýp",
+   "don_gia": "13800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

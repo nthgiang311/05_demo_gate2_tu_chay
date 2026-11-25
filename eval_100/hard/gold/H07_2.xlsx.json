@@ -1,0 +1,255 @@
+{
+ "file": "H07_2.xlsx",
+ "category": 7,
+ "category_desc": "ĐVT nằm trong tiêu đề cột giá",
+ "variant": 2,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "BG",
+   "header_rows": [
+    5
+   ],
+   "data_first": 6,
+   "data_last": 28,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_gia": "D"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "BG!6",
+   "ma_hang": "TH1000",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Hộp",
+   "don_gia": "54000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!7",
+   "ma_hang": "DP1001",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Hộp",
+   "don_gia": "205000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!8",
+   "ma_hang": "YT1002",
+   "ten_hang": "Acetylcystein 200mg",
+   "don_vi": "Hộp",
+   "don_gia": "4500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!9",
+   "ma_hang": "TH1003",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Hộp",
+   "don_gia": "2200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!10",
+   "ma_hang": "YT1004",
+   "ten_hang": "Loratadin 10mg",
+   "don_vi": "Hộp",
+   "don_gia": "25000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!11",
+   "ma_hang": "TH1005",
+   "ten_hang": "Thuốc nhỏ mắt V.Rohto 13ml",
+   "don_vi": "Hộp",
+   "don_gia": "7100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!12",
+   "ma_hang": "YT1006",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Hộp",
+   "don_gia": "194000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!13",
+   "ma_hang": "YT1007",
+   "ten_hang": "Que thử thai",
+   "don_vi": "Hộp",
+   "don_gia": "24800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!14",
+   "ma_hang": "DP1008",
+   "ten_hang": "Amlodipin 5mg",
+   "don_vi": "Hộp",
+   "don_gia": "3600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!15",
+   "ma_hang": "DP1009",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Hộp",
+   "don_gia": "199000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!16",
+   "ma_hang": "YT1010",
+   "ten_hang": "Máy đo huyết áp Omron HEM-7120",
+   "don_vi": "Hộp",
+   "don_gia": "140000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!17",
+   "ma_hang": "TH1011",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Hộp",
+   "don_gia": "61200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!18",
+   "ma_hang": "YT1012",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "5200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!19",
+   "ma_hang": "TH1013",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Hộp",
+   "don_gia": "17000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!20",
+   "ma_hang": "SP1014",
+   "ten_hang": "Kem Acyclovir 5g",
+   "don_vi": "Hộp",
+   "don_gia": "242300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!21",
+   "ma_hang": "TH1015",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Hộp",
+   "don_gia": "205300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!22",
+   "ma_hang": "SP1016",
+   "ten_hang": "Men vi sinh Enterogermina 5ml",
+   "don_vi": "Hộp",
+   "don_gia": "186000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!23",
+   "ma_hang": "DP1017",
+   "ten_hang": "Nước muối sinh lý 10ml",
+   "don_vi": "Hộp",
+   "don_gia": "101500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!24",
+   "ma_hang": "YT1018",
+   "ten_hang": "Decolgen",
+   "don_vi": "Hộp",
+   "don_gia": "132100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!25",
+   "ma_hang": "DP1019",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "28400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!26",
+   "ma_hang": "YT1020",
+   "ten_hang": "Sắt Ferrovit",
+   "don_vi": "Hộp",
+   "don_gia": "42000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!27",
+   "ma_hang": "TH1021",
+   "ten_hang": "Losartan 50mg",
+   "don_vi": "Hộp",
+   "don_gia": "216000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "BG!28",
+   "ma_hang": "TH1022",
+   "ten_hang": "Salonpas 10 miếng",
+   "don_vi": "Hộp",
+   "don_gia": "20300",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}

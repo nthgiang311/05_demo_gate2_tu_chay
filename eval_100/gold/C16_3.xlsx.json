@@ -1,0 +1,306 @@
+{
+ "file": "C16_3.xlsx",
+ "category": 16,
+ "category_desc": "Tiêu đề tiếng Anh",
+ "variant": 3,
+ "expect_error": null,
+ "tables": [
+  {
+   "sheet": "Price list",
+   "header_rows": [
+    4
+   ],
+   "data_first": 5,
+   "data_last": 32,
+   "mapping": {
+    "ma_hang": "B",
+    "ten_hang": "C",
+    "don_vi": "D",
+    "don_gia": "E"
+   }
+  }
+ ],
+ "rows": [
+  {
+   "nguon": "Price list!5",
+   "ma_hang": "YT1000",
+   "ten_hang": "Khẩu trang y tế 4 lớp 50 cái",
+   "don_vi": "Hộp",
+   "don_gia": "22600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!6",
+   "ma_hang": "TH1001",
+   "ten_hang": "Kim luồn tĩnh mạch 22G",
+   "don_vi": "Cái",
+   "don_gia": "8400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!7",
+   "ma_hang": "SP1002",
+   "ten_hang": "Hapacol 250",
+   "don_vi": "Gói",
+   "don_gia": "29700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!8",
+   "ma_hang": "SP1003",
+   "ten_hang": "Bông y tế 100g",
+   "don_vi": "Gói",
+   "don_gia": "20200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!9",
+   "ma_hang": "TH1004",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Chai",
+   "don_gia": "202700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!10",
+   "ma_hang": "DP1005",
+   "ten_hang": "Natri clorid 0,9% 500ml",
+   "don_vi": "Chai",
+   "don_gia": "226000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!11",
+   "ma_hang": "YT1006",
+   "ten_hang": "Dầu gió Trường Sơn 3ml",
+   "don_vi": "Chai",
+   "don_gia": "6900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!12",
+   "ma_hang": "TH1007",
+   "ten_hang": "Cefuroxim 250mg",
+   "don_vi": "Hộp",
+   "don_gia": "11700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!13",
+   "ma_hang": "TH1008",
+   "ten_hang": "Prednisolon 5mg",
+   "don_vi": "Viên",
+   "don_gia": "167000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!14",
+   "ma_hang": "YT1009",
+   "ten_hang": "Cồn 70 độ 500ml",
+   "don_vi": "Chai",
+   "don_gia": "246000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!15",
+   "ma_hang": "TH1010",
+   "ten_hang": "Cetirizin 10mg",
+   "don_vi": "Viên",
+   "don_gia": "218100",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!16",
+   "ma_hang": "TH1011",
+   "ten_hang": "Bơm tiêm 5ml 25G",
+   "don_vi": "Cái",
+   "don_gia": "13700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!17",
+   "ma_hang": "YT1012",
+   "ten_hang": "Efferalgan 500mg",
+   "don_vi": "Cái",
+   "don_gia": "22500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!18",
+   "ma_hang": "YT1013",
+   "ten_hang": "Găng tay y tế 100 cái",
+   "don_vi": "Hộp",
+   "don_gia": "150000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!19",
+   "ma_hang": "SP1014",
+   "ten_hang": "Băng cá nhân 100 miếng",
+   "don_vi": "Cái",
+   "don_gia": "165200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!20",
+   "ma_hang": "SP1015",
+   "ten_hang": "Omeprazol 20mg",
+   "don_vi": "Viên",
+   "don_gia": "11000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!21",
+   "ma_hang": "SP1016",
+   "ten_hang": "Berberin 100mg",
+   "don_vi": "Cái",
+   "don_gia": "122600",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!22",
+   "ma_hang": "SP1017",
+   "ten_hang": "Gaviscon 10ml",
+   "don_vi": "Gói",
+   "don_gia": "166500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!23",
+   "ma_hang": "SP1018",
+   "ten_hang": "Cao xoa Sao Vàng",
+   "don_vi": "Hộp",
+   "don_gia": "79700",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!24",
+   "ma_hang": "DP1019",
+   "ten_hang": "Panadol Extra",
+   "don_vi": "Lọ",
+   "don_gia": "107500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!25",
+   "ma_hang": "SP1020",
+   "ten_hang": "Azithromycin 250mg",
+   "don_vi": "Viên",
+   "don_gia": "230000",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!26",
+   "ma_hang": "SP1021",
+   "ten_hang": "Clorpheniramin 4mg",
+   "don_vi": "Viên",
+   "don_gia": "11200",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!27",
+   "ma_hang": "YT1022",
+   "ten_hang": "Strepsils 24 viên",
+   "don_vi": "Hộp",
+   "don_gia": "4900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!28",
+   "ma_hang": "TH1023",
+   "ten_hang": "Povidon iod 10% 90ml",
+   "don_vi": "Hộp",
+   "don_gia": "2500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!29",
+   "ma_hang": "DP1024",
+   "ten_hang": "Amoxicillin 500mg",
+   "don_vi": "Viên",
+   "don_gia": "248500",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!30",
+   "ma_hang": "YT1025",
+   "ten_hang": "Atorvastatin 20mg",
+   "don_vi": "Viên",
+   "don_gia": "27800",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!31",
+   "ma_hang": "SP1026",
+   "ten_hang": "Dexamethason 4mg/ml",
+   "don_vi": "Viên",
+   "don_gia": "9900",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  },
+  {
+   "nguon": "Price list!32",
+   "ma_hang": "DP1027",
+   "ten_hang": "Gạc y tế 10x10cm",
+   "don_vi": "Gói",
+   "don_gia": "196400",
+   "tien_te": "VND",
+   "expect_ok": true,
+   "trap": null
+  }
+ ],
+ "hieu_luc_tu": null
+}
